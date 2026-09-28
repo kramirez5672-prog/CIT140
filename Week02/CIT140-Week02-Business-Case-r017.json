@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "51c73b30-96d1-4702-a24b-b1564c8fa7a7",
+  "revision": 17,
+  "createdAt": "2026-09-28T17:03:07.358Z",
+  "exportedAt": "2026-09-28T17:21:51.765Z",
+  "learnerLabel": "MR-17 QA Review Business Case",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "Conduct a bounded QA review of the MR-17 cell’s command-authorization ownership, scheduling and retirement controls, and evidence-preservation process."
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": "The current process depends on QA requesting records, custodians locating them, and QA and Engineering verifying their origin and meaning. The available records show gaps in source and custodian information that can make records harder to verify. The review is needed to identify these gaps and document the current process without assuming that unverified information is correct."
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "QA, Engineering, and Operations could benefit from clearer ownership, better documentation of scheduling and retirement controls, and improved preservation of evidence. The review could make future records easier to locate and verify, but no financial savings or other future benefits should be claimed until they are measured."
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "Review command-authorization ownership for the affected cell, inventory the controls used to schedule and retire tests, document an evidence-preservation checklist, identify gaps, and prepare a report for later decisions. Deliverables are one command-ownership record, one scheduling/retirement control inventory, and one evidence-preservation checklist. (W02-S03)"
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "The review does not authorize restarting or operating MR-17, changing software or schedules, deleting or modifying original records, purchasing a replacement robot, selecting a vendor, or extending the review to other cells. (W02-S03)"
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "The review can use the existing documentation tools and read-only record exports. However, access to the required exports has only been requested and has not been confirmed. If access is denied, the work would need to be revised or deferred. (W02-S04)"
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "The work can fit around normal duties if the provisional staffing is confirmed. The plan requires 24 analyst hours, 12 engineering hours, 8 QA hours, and 4 Operations hours. Engineering, QA, and Operations availability still needs to be confirmed because their regular duties remain in place. (W02-S04)"
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "The base estimate is 48 staff hours at a cost of $2,820, which is $180 below the $3,000 limit. The planning range is $2,350–$3,525, so the upper estimate would exceed the limit by $525. These estimates do not include equipment purchases, software licenses, or overtime. (W02-S05)"
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "The proposed schedule is eight business days, which is within the ten-business-day limit and leaves two days of headroom. The 48 staff hours are total effort across multiple people and are not 48 elapsed hours. The schedule assumes exports arrive by day 3, Engineering can begin on day 4, and tasks can overlap. (W02-S04/W02-S05)"
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "The review has a $3,000 budget limit and a ten-business-day schedule limit. Access is limited to read-only records and must still be confirmed. Regular staff duties remain in place, and all learner work must remain outside the safety glass. Original records must be preserved and equipment cannot be operated as part of this review. (W02-S04/W02-S05)"
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "The eight-day schedule assumes the required exports arrive by day 3 and staff availability is confirmed. Late exports could delay Engineering, and a QA shift reassignment could remove the planned QA window. These are possible risks, not current delays. Elias/Engineering should confirm export access and the appropriate team leads should confirm staff availability before the work is authorized. (W02-S04)"
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "Success will first be measured by completing all three review deliverables and having Nia and Elias review the source references, unknowns, and preservation steps. Mara should record their feedback for the sponsor. For later value measurement, keep the measured six-request baseline from W02-S02. A possible future target is having a complete custodian/source link in all six requests in a comparable sample, but the sponsor still needs to approve the target and collection method. No financial savings should be claimed yet."
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "proceed"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "I recommend proceeding because the review is limited in scope and the base estimate of $2,820 is within the $3,000 budget. The eight-business-day plan also fits within the ten-business-day limit. However, proceeding should depend on confirming access to the required read-only exports and staff availability. The upper cost estimate of $3,525 is above the budget, so the sponsor should also address that uncertainty before committing. (W02-S04, W02-S05)"
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "The sponsor should confirm authorization only after the required read-only export access and staff availability are confirmed. The sponsor should also decide how to handle the possibility that costs could exceed the $3,000 limit and approve the target and collection method for measuring later benefits."
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
