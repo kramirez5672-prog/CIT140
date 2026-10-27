@@ -1,0 +1,256 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Current Process" id="w05-process">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#183c43;align=left;" value="CIT 140 · Week 5 | Current Appointment Process" vertex="1">
+          <mxGeometry height="40" width="1080" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="visitor" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Visitor" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-1" parent="visitor" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Visitor requests appointment&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="220" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="clinical" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Clinical&lt;br&gt;Operations" vertex="1">
+          <mxGeometry height="100" width="1100" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-18" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;" value="Check room and clinician availability&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="220" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-34" edge="1" parent="clinical" source="mzEPm8oY-8Ci84CDC6kN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-35" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.1542" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-20" parent="clinical" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Room and clinician available?" vertex="1">
+          <mxGeometry height="80" width="120" x="460" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-21" edge="1" parent="clinical" source="mzEPm8oY-8Ci84CDC6kN-18" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mzEPm8oY-8Ci84CDC6kN-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="80" as="sourcePoint" />
+            <mxPoint x="360" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scheduling" parent="clinical" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Scheduling" vertex="1">
+          <mxGeometry height="100" width="1080" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-2" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;" value="Record requested time and support preferences&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="225" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-5" parent="scheduling" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Booking details complete?" vertex="1">
+          <mxGeometry height="75" width="130" x="458" y="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-7" edge="1" parent="scheduling" source="mzEPm8oY-8Ci84CDC6kN-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mzEPm8oY-8Ci84CDC6kN-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="90" as="sourcePoint" />
+            <mxPoint x="430" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-25" edge="1" parent="scheduling" source="mzEPm8oY-8Ci84CDC6kN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="mzEPm8oY-8Ci84CDC6kN-5">
+          <mxGeometry relative="1" x="0.1094" as="geometry">
+            <Array as="points">
+              <mxPoint x="755" y="90" />
+              <mxPoint x="560" y="90" />
+              <mxPoint x="560" y="70" />
+              <mxPoint x="555.5" y="70" />
+            </Array>
+            <mxPoint x="550" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-27" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Review revised request" vertex="1">
+          <mxGeometry relative="1" x="0.107" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-8" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;" value="Contact visitor for clarification&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="680" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-9" edge="1" parent="scheduling" source="mzEPm8oY-8Ci84CDC6kN-5" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mzEPm8oY-8Ci84CDC6kN-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="589.9999999999998" y="45" as="sourcePoint" />
+            <mxPoint x="680" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-10" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.0679" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-15" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;" value="Request clinical readiness decision&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="910" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-28" edge="1" parent="scheduling" source="mzEPm8oY-8Ci84CDC6kN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" x="0.075" as="geometry">
+            <mxPoint x="530" y="90" as="sourcePoint" />
+            <mxPoint x="280" y="126.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-29" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.082" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-31" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;" value="Record readiness for appointment&amp;nbsp;&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="760" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-41" edge="1" parent="clinical" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523" y="10" as="sourcePoint" />
+            <mxPoint x="910" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-42" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.1319" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-44" edge="1" parent="clinical" source="mzEPm8oY-8Ci84CDC6kN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-43" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;" value="Notify Scheduling to arrange new slot&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="990" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="intake" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Intake" vertex="1">
+          <mxGeometry height="110" width="1080" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-32" parent="intake" style="rounded=0;whiteSpace=wrap;html=1;" value="Keep appointment held and review capacity&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="620" y="-46" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-51" edge="1" parent="intake" source="mzEPm8oY-8Ci84CDC6kN-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-45" parent="intake" style="rounded=0;whiteSpace=wrap;html=1;" value="Visitor arrives and check appointment status&lt;div&gt;(W05-S03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-49" edge="1" parent="intake" source="mzEPm8oY-8Ci84CDC6kN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-50" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.1708" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-58" edge="1" parent="intake" source="mzEPm8oY-8Ci84CDC6kN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-59" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.3669" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-46" parent="intake" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Status Ready?" vertex="1">
+          <mxGeometry height="80" width="120" x="570" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-55" edge="1" parent="intake" source="mzEPm8oY-8Ci84CDC6kN-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-56" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Update Status" vertex="1">
+          <mxGeometry relative="1" x="0.0368" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-47" parent="intake" style="rounded=0;whiteSpace=wrap;html=1;" value="Contact Scheduling and Clinical Operations&lt;div&gt;(W05-S04)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-57" parent="intake" style="rounded=0;whiteSpace=wrap;html=1;" value="Confirm support arrangements&lt;div&gt;(W05-S03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="120" x="940" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Next staff team" vertex="1">
+          <mxGeometry height="110" width="1080" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-63" edge="1" parent="handoff" source="mzEPm8oY-8Ci84CDC6kN-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-60" parent="handoff" style="rounded=0;whiteSpace=wrap;html=1;" value="Handoff to the next staff team&amp;nbsp;&lt;div&gt;(W05-S03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-62" parent="handoff" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Appointment Completed (End)" vertex="1">
+          <mxGeometry height="45" width="120" x="820" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;fontSize=13;align=left;" value="Symbol key (copy these shapes into your lanes; they are not case steps)" vertex="1">
+          <mxGeometry height="30" width="1080" x="40" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="l-start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Start / end" vertex="1">
+          <mxGeometry height="45" width="130" x="200" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="l-activity" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Activity" vertex="1">
+          <mxGeometry height="45" width="130" x="390" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="l-decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Decision?" vertex="1">
+          <mxGeometry height="65" width="100" x="590" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="l-arrow" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="Labeled sequence">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="735" as="sourcePoint" />
+            <mxPoint x="980" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-14" edge="1" parent="1" source="mzEPm8oY-8Ci84CDC6kN-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="mzEPm8oY-8Ci84CDC6kN-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-36" edge="1" parent="1" source="mzEPm8oY-8Ci84CDC6kN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-37" connectable="0" parent="mzEPm8oY-8Ci84CDC6kN-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.071" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-39" edge="1" parent="1" source="mzEPm8oY-8Ci84CDC6kN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-48" edge="1" parent="1" source="mzEPm8oY-8Ci84CDC6kN-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.556;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-53" edge="1" parent="1" source="mzEPm8oY-8Ci84CDC6kN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="mzEPm8oY-8Ci84CDC6kN-45">
+          <mxGeometry relative="1" x="0.0027" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="450" />
+              <mxPoint x="550" y="450" />
+            </Array>
+            <mxPoint x="750" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzEPm8oY-8Ci84CDC6kN-61" edge="1" parent="1" source="mzEPm8oY-8Ci84CDC6kN-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="mzEPm8oY-8Ci84CDC6kN-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Scope and Findings" id="w05-findings">
+    <mxGraphModel dx="1220" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#183c43;align=left;" value="Week 5 | Scope and Findings" vertex="1">
+          <mxGeometry height="40" width="1070" x="45" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#edf5f2;strokeColor=#5a7c7d;fontColor=#000000;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;1 · Process scope&lt;br&gt;&lt;/font&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;quot;.SFUI-Regular&amp;quot;; vertical-align: 1px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Name: Kristen Ramirez&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;quot;.SFUI-Regular&amp;quot;; vertical-align: 1px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Purpose: To show how an appointment moves from scheduling to intake and identify any problems with the process.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;quot;.SFUI-Regular&amp;quot;; vertical-align: 1px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Start: A visitor requests an appointment.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;quot;.SFUI-Regular&amp;quot;; vertical-align: 1px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;End: The visitor is handed off to the next staff team.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;quot;.SFUI-Regular&amp;quot;; vertical-align: 1px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Roles: Visitor, Scheduling, Clinical Operations, Intake, and Next Staff Team.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;quot;.SFUI-Regular&amp;quot;; vertical-align: 1px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Outside the scope: The actual medical appointment, treatment, and any new software design.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="155" width="1070" x="45" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="walkthrough" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#fff7ee;strokeColor=#95694b;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;2.&lt;span style=&quot;background-color: transparent;&quot;&gt;Normal appointment: The visitor requests an appointment. Scheduling records the information and checks that the details are complete. Clinical Operations checks room and clinician availability and records readiness. When the visitor arrives, Intake checks the status, confirms support arrangements, and hands the visitor to the next staff team.&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Incident appointment: The booking request was recorded, a slot was held, and a confirmation was sent. However, when the visitor arrived, Intake still showed the appointment as held. Intake then contacted Scheduling and Clinical Operations for clarification.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Gap: W05-S04 shows that no completed readiness decision reached Intake before the visitor arrived. The records do not explain why the decision was missing or prove that it never happened.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="1070" x="45" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="sources" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;3.&lt;span style=&quot;background-color: transparent;&quot;&gt;W05-S01: Supports the scheduling steps, booking details, and clarification process.&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;W05-S02: Supports the clinical readiness check and held appointment process.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;W05-S03: Supports the intake process, status check, and handoff to the next staff team.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;W05-S04: Supports the incident timeline and missing readiness information.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Model review: I checked that each activity was in the correct role&#39;s lane and that the Yes and No decisions showed the correct paths. I also kept the booking confirmation separate from the readiness decision.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Uncertainty: It is unclear why Intake did not receive a completed readiness decision. The readiness record and communication history between Clinical Operations and Intake would help explain what happened.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="1070" x="45" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="reflection" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#fff7ee;strokeColor=#95694b;" value="4.This assignment helped me understand how an appointment moves through different departments before the visitor is seen. I learned that receiving a booking confirmation does not necessarily mean the appointment is ready. The records in W05-S04 show that Intake did not have a completed readiness decision, but they do not explain why. This assignment was different from Week 4 because instead of focusing on requirements for a system, I was showing how the current process actually works and where problems can happen." vertex="1">
+          <mxGeometry height="140" width="1070" x="45" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=14;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="5.&lt;span style=&quot;background-color: transparent;&quot;&gt;Editable diagram: Ramirez_Kristen_CIT140_Week05_As_Is_Process_Model.drawio&lt;/span&gt;&lt;div&gt;PDF: Ramirez_Kristen_CIT140_Week05_As_Is_Process_Model.pdf&lt;/div&gt;&lt;div&gt;Discord screenshot: Week05_Discord_Post.png&lt;/div&gt;&lt;div&gt;Mission Receipt: Week05_Mission_Receipt.pdf&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;All files will be saved in the Week05 folder of my GitHub repository.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="125" width="1070" x="45" y="665" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
